@@ -1,4 +1,4 @@
-<h1>Listing ideas</h1>
+<h1>Listing Todos</h1>
 
 <% @ideas.in_groups_of(3) do |group| %>
   <div class="row">
@@ -12,4 +12,4 @@
   </div>
 <% end %>
 
-<%= link_to 'New Idea', new_idea_path %>
+<%= link_to 'New Todo', new_idea_path %>
